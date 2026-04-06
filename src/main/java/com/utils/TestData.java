@@ -4,7 +4,7 @@ public interface TestData {
 
 	public static final String BASE_URL = "https://fakerestapi.azurewebsites.net";
 	public static final String BASE_PATH = "/api/v1";
-	public static final String BOOK_ENDPOINT = "/Authors";
+	public static final String BOOK_ENDPOINT = "/Books";
 	public static final String CONTENT_TYPE = "application/json";
 	public static final int RANDOM_NUM = (int)(Math.random() * 1000);
 	public static final String RANDOM_STRING = "user" + RANDOM_NUM + "@gmail.com";
